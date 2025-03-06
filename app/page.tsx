@@ -142,7 +142,7 @@ export default function LandingPage() {
                 ]}
               >
                 <CarouselContent>
-                  {Array.from({ length: 13 }, (_, index) => (
+                  {Array.from({ length: 14 }, (_, index) => (
                     <CarouselItem key={index}>
                       <Image
                         src={`mision-vision/${index + 1}.jpg`}
