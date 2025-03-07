@@ -93,7 +93,7 @@ export default function LandingPage() {
                     Ethereum Venezuela
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Construyendo el futuro descentralizado en Venezuela. Únete nosotros y forma parte de la comunidad Ethereum del país.
+                    Construyendo el futuro descentralizado en Venezuela. Únete a nosotros y forma parte de la comunidad Ethereum del país.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
