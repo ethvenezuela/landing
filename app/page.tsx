@@ -30,7 +30,7 @@ export default function LandingPage() {
     <div className="flex flex-col min-h-screen">
       <div className="w-full py-2 text-sm text-center bg-primary/20">
         <p>
-          Te invitamos al próximo evento, este 25 de marzo, desde las 9:00 de la mañana en la UPT Aragua.{" "}
+          Te invitamos al próximo evento, este 8 de abril, desde las 9:00 de la mañana en la UPT Aragua.{" "}
           <Link
             href="https://aragua.org/eventos"
             target="_blank"
@@ -317,7 +317,7 @@ export default function LandingPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <time className="text-sm text-muted-foreground">25 de Marzo, 2025</time>
+                  <time className="text-sm text-muted-foreground">8 de Abril, 2025</time>
                   <h3 className="mt-2 text-xl font-bold">Seminario Blockchain 2025: Onboarding</h3>
                   <p className="mt-2 text-muted-foreground">
                     Aprende los fundamentos del ecosistema web3, guías, novedades, posibilidades. <br/>
