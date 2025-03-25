@@ -14,6 +14,7 @@ import {
   Twitter,
   ChevronRight,
   TextIcon as Telegram,
+  ChevronDown,
 } from "lucide-react"
 
 import {
@@ -24,6 +25,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
 export default function LandingPage() {
   return (
@@ -51,7 +53,7 @@ export default function LandingPage() {
                 height={32}
                 alt="Ethereum Venezuela Logo"
               />
-              <span className="inline-block font-bold">Ethereum Venezuela</span>
+              <span className="hidden font-bold md:inline-block">Ethereum Venezuela</span>
             </Link>
             <nav className="hidden gap-6 md:flex">
               <Link
@@ -76,6 +78,20 @@ export default function LandingPage() {
           </div>
           <div className="flex items-center justify-end flex-1 space-x-4">
             <nav className="flex items-center space-x-1">
+              
+              <DropdownMenu>
+                <DropdownMenuTrigger>
+                  <Button variant="ghost">
+                    Reportes
+                    <ChevronDown />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  <DropdownMenuItem>
+                    <Link href="https://reporte-ucab.ethvenezuela.org" target="_blank">Reporte UCAB</Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Button asChild>
                 <Link href="#contacto">Contacto</Link>
               </Button>
