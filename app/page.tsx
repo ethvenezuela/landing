@@ -32,7 +32,7 @@ export default function LandingPage() {
     <div className="flex flex-col min-h-screen">
       <div className="w-full py-2 text-sm text-center bg-primary/20">
         <p>
-          Te invitamos al próximo evento, este 8 de abril, desde las 9:00 de la mañana en la UPT Aragua.{" "}
+          Te invitamos al próximo evento, este 8 de abril, desde las 9:30 de la mañana en la UPT Aragua.{" "}
           <Link
             href="https://aragua.org/eventos"
             target="_blank"
